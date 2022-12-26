@@ -26,7 +26,7 @@ const About = () => {
           <div>
             <h2 style={{color:"rgb(50, 145, 50)" , marginLeft:"150px", fontWeight:"450"}}>---- About Us ----</h2>
             {/* <img style={{width:"500px" , marginTop:"10px"}} src={image} alt="taxImage"/> */}
-             <h1 style={{marginLeft:"40px" , width:"280px"}}>We Provide the Business Financial Solutions</h1>
+             <h1 style={{marginLeft:"40px" , width:"280px"}}>" We Provide the Business Financial Solutions "</h1>
              <div className='aboutGroup1'>
                <div>
                    <h3>Our Mission</h3>
@@ -54,7 +54,13 @@ const About = () => {
                    <h5>Transparency</h5>
                    <p>We value open communication, information sharing and inclusive decision making.</p>
                </div>
-               <div className='footerContent'>
+               <div className='aboutGroup3'>
+                    <h2>Our Mission Statement</h2>
+                    <h4>We are committed to maintaining the highest standards of integrity and professionalism in our relationship with you, our client. We endeavor to know and understand your financial situation and provide you with only the highest quality information, services and product to help you reach your goals.To provide timely, proactive, innovative and independent financial and tax services to privately owned businesses, their owners and families.<br/> <br/> We look forward to building client relationships with you  for years to come, and generations thereafter, whether a family legacy is left by you or to ensure that your plans are followed out accordingly. We help you stay on track and in the direction of what works best for you so that everyone is happy. It is a team effort and a committment between us and you, the client.
+
+We will zealously represent you in tax court or in any matter with the IRS in all areas of audit, collections and appeals. We are on your side!</h4>
+               </div>
+               <div className='footerContent3'>
                  <div><BsTelephone style={{color:"rgb(90, 196, 90)" , fontWeight:"bold"}}/><h4>469-875-3872</h4></div>
                  <div><AiOutlineMail style={{color:"rgb(75, 75, 224)"}}/><h4> magdispatch01@gmail.com</h4></div>
                  <div><GoLocation style={{color:"rgb(235, 66, 66)" , }}/><h4> 1221 W Airport Fwy Ste 115, Irving, Tx 75062</h4></div>
